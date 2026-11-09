@@ -91,3 +91,19 @@ git branch
 git pull origin main
 git branch -l
 git branch --l
+git pull origin
+git pull origin main
+cls
+clear
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+clear
+pg_dump -cC --inserts -U freecodecamp mario_database > universe.sql
+clear
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+__vsc_prompt_cmd_original
+clear
+sudo service postgresql start
+sudo service postgresql status
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+pg_dump -cC --inserts -U freecodecamp mario_database > universe.sql
+git add .
